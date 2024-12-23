@@ -41,3 +41,7 @@ Class diagram is a type of static structure diagram that **describes the structu
 - 将系统作为一个整体
 - 和其他类重复
 - 太模糊或者太具体
+
+### Relationship Notation
+A class may be involved in one or more relationships with other classes.
+![](./Pic/屏幕截图%202024-12-19%20115007.png)
