@@ -193,6 +193,21 @@ Refactoring is a systematic process of improving code without creating new funct
 
 ## 9- Software Evolution
 
+### Reengineering
+
+Reengineering involves **restructuring or rewriting** parts of a legacy system **without changing functionality**, to make it easier to maintain.
+
+优点：
+
+- Reduced Risk
+- Reduced Cost
+
+
+
+### Refactoring
+
+Refactoring is the process of improving a program's **structure and readability** without changing its functionality. It acts as **preventative maintenance** to reduce future issues caused by changes.
+
 ### refactoring vs Reengineering
 
 | Refactoring                                | Reengineering                                        |
@@ -202,3 +217,14 @@ Refactoring is a systematic process of improving code without creating new funct
 | Usually manual or with lightweight tools.  | Uses automated tools to transform the system.        |
 | Small, incremental changes                 | Large-scale system overhaul.                         |
 
+### Handover Problem
+
+- 开发团队使用agile approach；evolution team使用planed-based approach. 
+- 开发团队使用plan-based approach；evolution team使用agile approach
+
+### 根据不同情况选择适应的Legacy System处理方式
+
+- Low quality, low business value: Scrapped 废除
+- Low-quality, high-business value；Re-engineered or replaced
+- High-quality, low-business value: Scrap or maintain
+- High-quality, high business value: Continue in operation using normal system maintenance
