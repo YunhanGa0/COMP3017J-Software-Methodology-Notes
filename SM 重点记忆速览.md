@@ -41,7 +41,7 @@
 | Advantages   | Data and its display can change independently.<br />Same data can have various representations, all kept in sync. |
 | Disadvantage | For simple systems, MVC might add unnecessary code and complexity. |
 
-###Architectural Design Decisions
+### Architectural Design Decisions
 
 - Perfomance: Localize critical operations; MInimize communications; Use large-grain components.
 - Security: Protect critical assets in inner layers.
