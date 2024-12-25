@@ -28,3 +28,23 @@ Requirements engineering involves **three key activities**:
 ![](./Pic/屏幕截图%202024-12-22%20164743.png)
 
 ## Use case diagram
+
+### IEEE 830 and User Stories
+- IEEE 830风格的需求声明侧重于属性，而用户故事关注的是用户的目标。
+- IEEE 830需求规范鼓励团队这样做把所有的需求陈述写在前面，而不是在里面迭代的方式，就像用户故事一样。
+
+### Requirements Validation - Checking                   
+**Validity**（是否提供最有效的功能？）
+- Does the system provide the functions which best support the customer’s needs?
+
+**Consistency**（需求是否冲突？）
+- Are there any requirements conflicts?
+
+**Completeness**（所有需求都满足了吗？）
+- Are all functions required by the customer included?
+
+**Realism**（现有预算和技术可以实现需求吗？）
+- Can the requirements be implemented given available budget and technology?
+
+**Verifiability**（需求可以被验证吗？）
+- Can the requirements be checked?

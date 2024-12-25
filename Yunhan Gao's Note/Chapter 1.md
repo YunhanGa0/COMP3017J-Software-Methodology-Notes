@@ -15,9 +15,15 @@
 3. **Software validation**: where the software is checked to ensure that it is what the customer requires.
 4. **Software evolution**: where the software is modified to reflect changing customer and market requirements.
 
-## Software Quality Characteristics (质量特性)
+## 软件特性（3C1I）
+- Conformity (一致性)
+- Invisibility (不可见性)
+- Complexity (复杂性)
+- Changeability (演化性)
 
-| Functionality       | Are the required functions available in the software?        |
+## ISO 9126 Software Quality Characteristics (质量特性)
+
+| **Functionality**       | Are the required functions available in the software?        |
 | :------------------ | :----------------------------------------------------------- |
 | **Reliability**     | How reliable is the software?                                |
 | **Usability**       | Is the software easy to use?                                 |

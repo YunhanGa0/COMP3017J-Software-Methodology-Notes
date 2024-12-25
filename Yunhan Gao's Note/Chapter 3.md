@@ -41,6 +41,7 @@ The "How”: focus on building something that is useable and potentially releasa
 A facilitator who arranges daily meetings, tracks the backlog of work to be done, records decisions, measures progress against the backlog.
 
 ![](./Pic/屏幕截图%202024-12-21%20233753.png)
+
 **Scrum Theory**(四种会议)：
 - Sprint Planning
 - Daily Scrum
