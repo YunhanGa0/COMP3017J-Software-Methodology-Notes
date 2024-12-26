@@ -88,7 +88,7 @@
 - Availability: Use fault-tolerance mechanisms.
 - Maintainability: Use fine-grain, replaceable components.
 
-
+​	
 
 ## 7- Design and Implementation
 
@@ -112,7 +112,7 @@
 
 **Dependencey Inversion Principle**
 
-High-level modules should not depend on low-level modules. Both should depend on abstractions. 具体实现（类）应该依赖于接口或抽象类，而不是直接依赖于其他具体实现。
+High-level modules should not depend on low-level modules. Both should depend on abstractions. 	
 
 ### Refactoring 概念
 
@@ -168,9 +168,9 @@ Refactoring is a systematic process of improving code without creating new funct
 
 **白盒测试**是一种基于代码实现的测试方法，测试人员需要了解程序的内部逻辑和代码结构，通过检查代码的逻辑路径、条件分支、循环等，来验证程序是否按照预期工作。
 
-<img src="E:/WeChat%20Files/wxid_l2ot4hx7gopw22/FileStorage/Temp/84b5c604254f819c3ac01ccc21e601d.jpg" alt="84b5c604254f819c3ac01ccc21e601d" style="zoom:25%;" />
+![84b5c604254f819c3ac01ccc21e601d](./84b5c604254f819c3ac01ccc21e601d.jpg)
 
-<img src="E:/WeChat%20Files/wxid_l2ot4hx7gopw22/FileStorage/Temp/36e53d20577a6f5bc61710edb6cf747.jpg" alt="84b5c604254f819c3ac01ccc21e601d" style="zoom:25%;" />
+![36e53d20577a6f5bc61710edb6cf747](./36e53d20577a6f5bc61710edb6cf747.jpg)
 
 决策判定：每个if语句都有T/F
 
@@ -277,4 +277,4 @@ Replace the system with a new system.
 - High-quality, low-business value: Scrap or maintain
 - High-quality, high business value: Continue in operation using normal system maintenance
 
-![image-20241226192220050](./image-20241226192220050.png)
+![image-20241226192220050](./image-20241226192220050.png)	
