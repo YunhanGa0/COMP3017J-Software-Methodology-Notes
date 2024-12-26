@@ -4,7 +4,7 @@
 2. **Process view:** which shows how, at run-time, the system is composed of interacting processes.
 3. **Development view:** which shows how the software is decomposed for development.
 4. **Physical view:** which shows the system hardware and how software components are distributed across the processors in the system.
-- Related using use cases or scenarios.
+5. **Scenario view**
 
 ## Architectural Patterns
 >**An architectural pattern is a stylized description of good design practice**, which has been tried and tested in different environments.
@@ -26,7 +26,7 @@ Used  when  data  in  a  shared  database  has  to  be  accessed  from  a range 
 - Graphical user interfaces
 
 ### Layered Architecture
->Organises the system into a set of layers each of whichprovide a set of services.
+>Organises the system into a set of layers each of which provide a set of services.
 
 **When use:**
 Used when building new facilities on top of existing systems; when the  development  is  spread  across  several  teams  with  each  team responsibility for a layer of functionality; when there is a requirement for multi-level security.
