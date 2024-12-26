@@ -1,5 +1,45 @@
 # SM 重点记忆速览
 
+## 4 - Requirements Engineering
+
+
+
+## 4.5 User Story
+
+### INVEST
+
+需要判断某一用户故事违反了哪一个特性。
+
+- Independent: 用户故事是独立的彼此没有依赖关系。
+
+  我希望能够支付订单，但用户必须先完成登录功能
+
+- Negotiable: 用户故事是团队与产品负责人之间的协商点，可以协商
+
+  用户希望在商品详情页显示10个商品推荐。
+
+- Valuable: 用户故事必须对最终用户提供明确的业务价值。
+
+  我希望可以优化数据库的查询速度。
+
+- Estimable：用户故事的工作是可估算的。
+
+  我希望系统更安全
+
+- Small: 用户故事应该足够小，能够在一个迭代周期内完成。
+
+  作为用户，我希望能够管理账户，包括修改个人信息、上传头像、绑定支付方式和查看历史订单
+
+- Testable: 用户故事必须有明确的接受标准，可以通过测试来验证是否完成。
+
+  用户体验应该更好
+
+
+
+### Release plan (题怎么做)
+
+![image-20241224230927497](./image-20241224230927497.png)
+
 ## 6-Architectural Design
 
 ### 4 +1视图模型
@@ -173,8 +213,6 @@ Refactoring is a systematic process of improving code without creating new funct
 | **Low-level** testing.                                  | **High-level** testing.                           |
 | Tests **interfaces** between components.                | Simulates **real-world scenarios**.               |
 
-
-
 ### 用户测试的类型（理解）
 
 - Alpha 测试
@@ -202,13 +240,11 @@ Reengineering involves **restructuring or rewriting** parts of a legacy system *
 - Reduced Risk
 - Reduced Cost
 
-
-
 ### Refactoring
 
 Refactoring is the process of improving a program's **structure and readability** without changing its functionality. It acts as **preventative maintenance** to reduce future issues caused by changes.
 
-### refactoring vs Reengineering
+### Refactoring vs Reengineering(考区别)
 
 | Refactoring                                | Reengineering                                        |
 | ------------------------------------------ | ---------------------------------------------------- |
@@ -222,9 +258,23 @@ Refactoring is the process of improving a program's **structure and readability*
 - 开发团队使用agile approach；evolution team使用planed-based approach. 
 - 开发团队使用plan-based approach；evolution team使用agile approach
 
-### 根据不同情况选择适应的Legacy System处理方式
+### 根据不同情况选择适应的Legacy System处理方式 （原题重考）
+
+(1)
+
+Scrap the system completely and modify business processes.
+
+Continue maintaining the system;
+
+Transform the system by re-engineering to improve its maintainability;
+
+Replace the system with a new system.
+
+(2)
 
 - Low quality, low business value: Scrapped 废除
 - Low-quality, high-business value；Re-engineered or replaced
 - High-quality, low-business value: Scrap or maintain
 - High-quality, high business value: Continue in operation using normal system maintenance
+
+![image-20241226192220050](./image-20241226192220050.png)
